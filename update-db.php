@@ -2,6 +2,7 @@
 
 <?php
 // Script for logging single rig/single GPU cgminer stats into an SQL database
+// Configure as a Cron Job to run at the required interval to update the database
 
 include_once('functions.inc.php');
 
